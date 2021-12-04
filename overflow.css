@@ -1,0 +1,39 @@
+.container {
+    width: 200px;
+    height: 100px;
+    /*overflow-y: auto;*/
+    overflow-y: auto;
+    /*overflow-x: scroll;*/
+    white-space: pre-wrap;
+    background-color: blanchedalmond;
+}
+.container1 {
+    width: 200px;
+    height: 200px;
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: brown;
+}
+.img-effects img {
+    filter:brightness(100%);
+    /*filter:blur(5px);*/
+    /*filter:contrast(70);*/
+    }
+/*image effects and position properties*/
+.img-effects {
+    position: relative;
+}
+
+.img-effects .my-text{
+    position: absolute;
+    top:50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    color: rgb(32, 35, 190);
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+
+}
+    

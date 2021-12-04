@@ -1,0 +1,46 @@
+/*padding and margin*/
+*{
+    margin:0;
+    padding:0;
+}
+/*box-shadow and text properties*/
+h1{
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(219, 87, 11, 0.932);
+    color: rgba(14, 15, 15, 0.5);
+    text-transform: capitalize;
+    border-radius: 7px;
+    box-shadow: 0 0 10px;
+}
+.para{
+    color: rgba(43, 53, 47, 0.904);
+}
+
+.parent-para{
+    display: flex;
+    background-color: rgba(20, 207, 135, 0.897);
+    padding: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.para p{
+    width: 350px;
+    border: 2px solid rgba(131, 21, 28, 0.788);
+    padding: 40px;
+    box-shadow: 9px 9px 10px solid rgba(172, 149, 45, 0.863);
+}
+/*Media Queries*/
+@media (max-width:620px) {
+    .parent-para{
+        width: 280px;
+        border: 1px solid rgb(202, 202, 202);
+        padding: 10px;
+        box-shadow: 8px 8px 10px rgba(219, 120, 120, 0.5);
+    }
+    .para{
+        text-align: center;
+        margin: 0 auto;
+    }
+    }
+    
